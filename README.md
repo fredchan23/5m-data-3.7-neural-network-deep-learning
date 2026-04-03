@@ -23,7 +23,7 @@ https://mnist-app-521506040142.us-central1.run.app/
 - `notebooks/cnn_experiments.ipynb` — training and evaluation
 - `mnist_deployment/main.py` — backend inference API
 - `mnist_deployment/static/index.html` — interactive frontend
-- `PHASE_1_TO_5_MNIST_DEPLOYMENT_TUTORIAL.md` — full phase-by-phase deployment guide
+- `mnist_deployment/PHASE_1_TO_5_MNIST_DEPLOYMENT_TUTORIAL.md` — full phase-by-phase deployment guide
 
 ---
 
