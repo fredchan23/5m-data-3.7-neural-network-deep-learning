@@ -1,5 +1,32 @@
 # 3.7 Neural Network and Deep Learning
 
+## 🚀 Featured Project: MNIST Handwriting Classifier Deployment
+
+This repository now includes an end-to-end deployment example that takes a trained MNIST deep learning model from `notebooks/cnn_experiments.ipynb` and serves it as a live web app.
+
+### 🌐 Live Demo
+
+**Try it here:**  
+https://mnist-app-521506040142.us-central1.run.app/
+
+### What this project demonstrates
+
+- training and comparing CNN models in Jupyter
+- saving trained PyTorch weights as `.pth`
+- serving predictions with `FastAPI`
+- drawing digits in the browser with an interactive canvas
+- packaging the app with Docker
+- deploying to Google Cloud Run
+
+### Project files
+
+- `notebooks/cnn_experiments.ipynb` — training and evaluation
+- `mnist_deployment/main.py` — backend inference API
+- `mnist_deployment/static/index.html` — interactive frontend
+- `PHASE_1_TO_5_MNIST_DEPLOYMENT_TUTORIAL.md` — full phase-by-phase deployment guide
+
+---
+
 ## Lesson Overview
 
 ![Infographic](./assets/infographic-3.7.png)
